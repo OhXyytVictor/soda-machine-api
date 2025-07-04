@@ -2,6 +2,8 @@
 venv/
 ENV/
 env/
+.env
+
 
 # 🔐 Variáveis secretas (.env com chave da Gemini/OpenAI)
 .env
