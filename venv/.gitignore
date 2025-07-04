@@ -1,0 +1,33 @@
+# 🧠 Ambiente virtual
+venv/
+ENV/
+env/
+
+# 🔐 Variáveis secretas (.env com chave da Gemini/OpenAI)
+.env
+
+# 📦 Banco de dados local (SQLite gerado automaticamente)
+soda_machine.db
+
+# 🗑️ Caches e artefatos Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🧪 Resultados de testes
+htmlcov/
+*.coverage
+
+# 📝 Logs
+*.log
+''
+# 🧱 Arquivos temporários de editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 📄 Arquivos gerados por Docker, se necessário
+*.db-journal
+*.sqlite3
